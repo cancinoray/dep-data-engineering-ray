@@ -12,8 +12,8 @@ Philippine e-commerce has grown significantly over the past few years, but there
 
 ## Data Source
 
-- **Primary:** [Philippine Statistics Authority (PSA)](https://psa.gov.ph) — retail trade statistics
-- **Secondary:** Lazada and Shopee public product listing data via web scraping
+- **Primary:** [PSA Retail Trade Statistics](https://psa.gov.ph/statistics/retail-trade) — annual retail trade survey data, downloaded as CSV from the PSA OpenSTAT portal
+- **Secondary:** Lazada and Shopee product listing data — scraped using Python `requests` + `BeautifulSoup` from public category pages (no login required)
 
 ## Project Structure
 
